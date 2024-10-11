@@ -13,4 +13,11 @@ https://www.kaggle.com/code/muskanjha/calories-burnt-prediction
 - Seaborn
   
 #### Perfomance of Algorithms
-- Linear Regressor
+##### - Linear Regressor
+          | Metric | Training Data | Testing Data |
+          |-----------------|-----------------|-----------------|
+          | R2-Score    |   0.968  | 0.964    |
+          | MAE   | 8.275   | 8.556   |
+          | MSE    | 125.10   | 139.346    |
+
+      
