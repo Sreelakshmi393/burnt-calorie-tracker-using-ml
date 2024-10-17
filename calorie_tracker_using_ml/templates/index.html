@@ -1,0 +1,85 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gym Management System</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="{{ url_for('login') }}">Login</a>
+    </nav>
+
+    <main>
+        <h2>Your Fitness, Our Commitment</h2>
+        <p>Manage your memberships, classes, and personal training sessions with ease.</p>
+    </main>
+
+    <footer>
+        <p>© 2024 Gym Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burnt Calorie Tracking System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Burnt Calorie Tracking System</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Features</a>
+        
+        <a href="#">Contact</a>
+        <a href="{{ url_for('login') }}">Login</a>
+    </nav>
+
+    <main>
+        <div class="intro">
+            <h2>Track Your Fitness Progress Effortlessly</h2>
+            <p>Our system helps you keep track of calories burnt during workouts at the gym. Whether you're lifting weights, running, or doing yoga, stay updated with your calorie expenditure and reach your fitness goals faster!</p>
+        </div>
+
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/gym_workout.jpg') }}" alt="Gym workout">
+        </div>
+
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Real-time calorie tracking for various workouts</li>
+                <li>Personalized workout recommendations based on your fitness level</li>
+                <li>Detailed progress reports and analytics</li>
+                <li>Integration with fitness devices and wearables</li>
+                <li>Easy login and user management</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Burnt Calorie Tracking System. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
